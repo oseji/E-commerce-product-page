@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Product page</title>
+  </head>
+  <body>
+    <main class="container">
+      <!--NAVBAR-->
+      <nav class="navbar">
+        <img src="images/logo.svg" alt="logo" class="navLogo" />
+
+        <ul class="navList">
+          <li class="navText">
+            <a href="#" class="navLink">Collections</a>
+          </li>
+          <li class="navText">
+            <a href="#" class="navLink">Men</a>
+          </li>
+          <li class="navText">
+            <a href="#" class="navLink">Women</a>
+          </li>
+          <li class="navText">
+            <a href="#" class="navLink">About</a>
+          </li>
+          <li class="navText">
+            <a href="#" class="navLink">Contact</a>
+          </li>
+        </ul>
+
+        <div class="cartProfileGrp">
+          <img src="images/icon-cart - black.svg" alt="cart" class="cartImg" />
+          <img src="images/image-avatar.png" alt="avatar" class="avatar" />
+        </div>
+      </nav>
+
+      <!--PRODUCT SECTION-->
+      <div class="productSection">
+        <div class="imageSection">
+          <img
+            src="images/image-product-1.jpg"
+            alt="main image"
+            class="mainImg"
+          />
+
+          <div class="imgThumbnails">
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              alt="image thumbnail"
+              class="thumbnail"
+            />
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              alt="image thumbnail"
+              class="thumbnail"
+            />
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              alt="image thumbnail"
+              class="thumbnail"
+            />
+            <img
+              src="images/image-product-3-thumbnail.jpg"
+              alt="image thumbnail"
+              class="thumbnail"
+            />
+          </div>
+        </div>
+        <div class="textSection">
+          <h3
+            class="text-orange-500 font-semibold uppercase tracking-wider my-5"
+          >
+            Sneaker company
+          </h3>
+
+          <h1 class="text-5xl font-bold capitalize mb-10">
+            Fall limited edition sneakers
+          </h1>
+
+          <p class="text-slate-500 mb-4">
+            These low-profile sneakers are your perfect casual wear
+            companion.Featuring a durable rubber sole,they'll withstand
+            everything the weather can offer.
+          </p>
+
+          <div class="mb-5">
+            <div class="flex flex-row gap-5 items-center mb-3">
+              <p class="discountPrice">$125.00</p>
+              <p class="discountPercentage">%50</p>
+            </div>
+            <p class="mainPrice">%250.00</p>
+          </div>
+
+          <div class="btnGrp">
+            <div class="addMinusGrp">
+              <button class="add">+</button>
+              <p class="itemCounter">0</p>
+              <button class="minus">-</button>
+            </div>
+
+            <button class="addToCart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
